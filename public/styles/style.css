@@ -1,0 +1,108 @@
+.post{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#home{
+    margin-top: 1%;
+    /* display: grid;
+    grid-template-columns: 2fr 1fr; */
+    height: 80vh;
+}
+
+
+#create-post{
+    background-color: gainsboro;
+    }
+ 
+a{
+    text-decoration: none;
+}
+
+/* posts section */
+
+#posts{
+    background-color: gainsboro;
+    grid-row: 1;
+}
+
+/* form styling */
+form[action="/submit"]{
+    display: flex;
+    flex-direction: column;
+}
+
+#post-form{
+    background-color: aliceblue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+ border: solid 2px black;
+ border-radius: 5px;
+ padding: 10px;
+ 
+ /* height: max-content; */
+}
+
+#title{
+    border-radius: 5px;
+}
+
+#paragraph{
+    border: solid 2px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+#submit-post{
+    border-radius:15px;
+}
+
+/* post styling */
+.post form{
+    display: inline;
+}
+
+.post{
+    margin: 10px 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/* footer */
+#footer{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 5px;
+}
+.icons{
+    text-align: center;
+}
+.icon{
+   margin-right:10px;
+}
+
+@media(max-width: 576px ) {
+    .row{
+        display: flex;
+        /* justify-content: center; */
+        flex-direction: column;
+        align-items: center;
+    }
+    #post-form{
+    width: 90%;
+   }
+   #posts{
+    width: 90%;
+   }
+
+  }
+  
